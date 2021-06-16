@@ -1,0 +1,24 @@
+<div class="card mt-2">
+  <div class="card-header">
+    Employee Details
+  </div>
+  <div class="card-body">
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">
+        Name: <h5>Manuel</h5>
+      </li>
+      <li class="list-group-item">
+        Eamil: <h5>Email@gdfg.com</h5>
+      </li>
+      <li class="list-group-item">
+        Fecha: <h5>01-01-2021</h5>
+      </li>
+    </ul>
+  </div>
+
+  <div class="btn-group" role="group">
+    <button class="btn btn-danger m-1 btn-sm" (click)="onDelete()">Eliminar</button>
+    <button class="btn btn-outline-warning m-1 btn-sm" (click)="onGoToEdit()">Editar</button>
+  </div>
+</div>
+<button class="btn btn-info m-1 btn-sm" (click)="onGoBackToList()">Go Back to list</button>
